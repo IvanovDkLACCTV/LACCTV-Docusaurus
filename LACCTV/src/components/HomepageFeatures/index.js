@@ -4,17 +4,16 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Системы аналитики',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        DMS (Driver monitoring system – контроль состояния водителя) для выявления опасного поведения водителя при управлении и алгоритмом ADAS для помощи водителю в обеспечении безопасности вождения. При необходимости пакет алгоритмов ADAS (Advanced driver assistance systems – усовершенствованная система помощи водителю) может быть заменен на пакет алгоритмов BSD (Blind spot detection – контроль слепых зон). При регистрации события система подает звуковой и визуальный сигнал через оповещатель R-Watch, чтобы в режиме реального времени предупредить водителя. В то же время записи событий могут быть выгружены на сервер 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Установка готовых решений под ключ',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -24,7 +23,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Техническая по',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

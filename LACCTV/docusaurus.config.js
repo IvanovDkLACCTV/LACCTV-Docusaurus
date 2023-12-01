@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'LACCTV',
+  tagline: 'Leading Alliance',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,9 +64,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'LACCTV',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -76,29 +76,39 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Регистраторы',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
+          {to: '/blog', label: 'Статьи', position: 'left'},
+          {to: '/pages/contact.md', label: 'Контакты', position: 'left'},
+          /* {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          }, */
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Оборудование',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Регистраторы',
                 to: '/docs/intro',
               },
             ],
           },
           {
+            title: 'Решения',
+            items: [
+              {
+                label: 'Грузовое авто',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          /* {
             title: 'Community',
             items: [
               {
@@ -114,8 +124,8 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
             ],
-          },
-          {
+          }, */
+          /* {
             title: 'More',
             items: [
               {
@@ -127,9 +137,9 @@ const config = {
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
-          },
+          }, */
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} LACCTV, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
