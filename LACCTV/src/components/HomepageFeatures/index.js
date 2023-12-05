@@ -5,40 +5,93 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Системы аналитики',
-    Image: require('@site/static/img/docusaurus.png').default,
+    Svg: require('@site/static/img/CCTV-Dome.svg').default,
     description: (
       <>
-        DMS (Driver monitoring system – контроль состояния водителя) для выявления опасного поведения водителя при управлении и алгоритмом ADAS для помощи водителю в обеспечении безопасности вождения. При необходимости пакет алгоритмов ADAS (Advanced driver assistance systems – усовершенствованная система помощи водителю) может быть заменен на пакет алгоритмов BSD (Blind spot detection – контроль слепых зон). При регистрации события система подает звуковой и визуальный сигнал через оповещатель R-Watch, чтобы в режиме реального времени предупредить водителя. В то же время записи событий могут быть выгружены на сервер 
+        <b>Камеры для общественного транспорта:</b> <br></br>
+        — антивандальные камеры;<br></br>
+        — мини камеры.
       </>
     ),
   },
   {
     title: 'Установка готовых решений под ключ',
-    Image: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/truck_cistern.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Работа с любым видом транспорта
       </>
     ),
   },
   {
-    title: 'Техническая по',
-    Image: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Установка и поддержка ПО',
+    Svg: require('@site/static/img/kingofsnakes_HP_C7000.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Серверные решения и техническая поддержка программной части систем видеоаналитики и наблюдения
+      </>
+    ),
+  },
+  {
+    title: 'Регистраторы',
+    Svg: require('@site/static/img/img20-cutout.svg').default,
+    description: (
+      <>
+        Серверные решения и техническая поддержка программной части систем видеоаналитики и наблюдения
+      </>
+    ),
+  },
+  {
+    title: 'Регистраторы',
+    Svg: require('@site/static/img/4x1-cutout.svg').default,
+    description: (
+      <>
+        Серверные решения и техническая поддержка программной части систем видеоаналитики и наблюдения
+      </>
+    ),
+  },
+  {
+    title: 'Регистраторы',
+    Svg: require('@site/static/img/4x1-cutout.svg').default,
+    description: (
+      <>
+        Серверные решения и техническая поддержка программной части систем видеоаналитики и наблюдения
+      </>
+    ),
+  },
+  {
+    title: 'Регистраторы',
+    Svg: require('@site/static/img/4x1-cutout.svg').default,
+    description: (
+      <>
+        Серверные решения и техническая поддержка программной части систем видеоаналитики и наблюдения
+      </>
+    ),
+  },{
+    title: 'Регистраторы',
+    Svg: require('@site/static/img/4x1-cutout.svg').default,
+    description: (
+      <>
+        Серверные решения и техническая поддержка программной части систем видеоаналитики и наблюдения
+      </>
+    ),
+  },
+  {
+    title: 'Регистраторы',
+    Svg: require('@site/static/img/4x1-cutout.svg').default,
+    description: (
+      <>
+        Серверные решения и техническая поддержка программной части систем видеоаналитики и наблюдения
       </>
     ),
   },
 ];
 
-function Feature({Image, title, description}) {
+function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Image className={styles.featureImage} role="img" />
+        <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

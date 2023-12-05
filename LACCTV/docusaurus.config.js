@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'LACCTV',
-  tagline: 'Leading Alliance',
+  title: 'Leading Alliance',
+  tagline: 'Компания «ЛА» на протяжении 6 лет, является производителем и поставщиком систем видеонаблюдения на транспорте. У нас можно приобрести профессиональное видеооборудование',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
