@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Системы аналитики',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Image: require('@site/static/img/docusaurus.png').default,
     description: (
       <>
         DMS (Driver monitoring system – контроль состояния водителя) для выявления опасного поведения водителя при управлении и алгоритмом ADAS для помощи водителю в обеспечении безопасности вождения. При необходимости пакет алгоритмов ADAS (Advanced driver assistance systems – усовершенствованная система помощи водителю) может быть заменен на пакет алгоритмов BSD (Blind spot detection – контроль слепых зон). При регистрации события система подает звуковой и визуальный сигнал через оповещатель R-Watch, чтобы в режиме реального времени предупредить водителя. В то же время записи событий могут быть выгружены на сервер 
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Установка готовых решений под ключ',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Image: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Техническая по',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Image: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -34,11 +34,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Image className={styles.featureImage} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
